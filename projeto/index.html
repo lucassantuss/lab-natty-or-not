@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrevendo Elementos na Imagem</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4 mb-4">Descrevendo Elementos na Imagem</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="imageInput" accept="image/*">
+                    <label class="custom-file-label" for="imageInput">Escolha uma imagem</label>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" onclick="processImage()">Gerar Legenda</button>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div id="imageContainer"></div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-8 offset-md-2 text-center">
+                <p id="caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

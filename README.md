@@ -1,12 +1,6 @@
 # Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
 
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+## 🎯 Desafio 💪
 
 ### Objetivos
 
@@ -20,22 +14,26 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 ### Template
 
 ```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Descrevendo Elementos da Imagem
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+O seguinte projeto tem o intuito de através de IA descrever objetos e elementos presentes na imagem enviada pelo usuário
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+> ChatGPT
+> MobileNet TensorFlow
+> HTML, CSS, JS
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+O processo de criação foi feito a partir da ideia de utilizar essa aplicação para classificar e descrever imagens independente de sua natureza por meio de uma Inteligencia Artificial
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+Conforme abaixo, podemos visualizar como foi o resultado gerado da aplicação
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+![Resultados da Aplicação](https://github.com/lucassantuss/lab-natty-or-not/projeto/resultado.png)
+
+## 💭 Reflexão
+Foi uma excelente oportunidade de me aprofundar ainda mais nesse meio que está em constante evolução dia após dia. Espero poder contribuir futuramente em novos projetos com IA e essas outras tecnologias apresentadas
 ```
 
 ### Exemplos e Insigths
